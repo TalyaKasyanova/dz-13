@@ -1,0 +1,136 @@
+:root {
+    --main-font-family: 'PT Sans400', sans-serif;
+    --accent-main-font-family: 'PT Sans700', sans-serif;
+
+    --accent-nav-font-family: 'TourneySemiBold', cursive;
+    --nav-font-family: 'Staatliches400', cursive;
+
+    --title-font-family: 'Francois One400', sans-serif;
+    --title-sup-font-family: 'Farro300', sans-serif;
+
+    --main-background-color: #fff;
+    --accent-background-color: #DADADA;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-style: normal;
+    font-family: var(--main-font-family);
+    color: #000000;
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.container {
+    max-width: 1230px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+/*   main-header   */
+
+.main-header {
+    padding: 13px 0;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.nav-list-item {
+    font-family: var(--nav-font-family);
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+}
+
+.nav-list-link-lang {
+    font-family: var(--accent-nav-font-family);
+    font-size: 22px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+
+    margin-right: 40px;
+}
+
+/*    main    */
+
+.main {
+    padding: 35px 0 50px 0;
+}
+
+section {
+    padding: 35px 0;
+}
+
+.title-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.title {
+    font-family: var(--title-font-family);
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+.sup-title {
+    font-family: var(--title-sup-font-family);
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+
+    margin-bottom: 40px;
+}
+
+.underlined-text {
+    text-decoration: underline;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.font-text {
+    background-color: var(--accent-background-color);
+}
+
+.section-text {
+    font-size: 28px;
+    line-height: 48px;
+}
+
+.container .section-text:not(:last-child) {
+    margin-bottom: 40px;
+}
