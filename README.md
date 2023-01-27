@@ -6,7 +6,7 @@
 
 <h3>14. CSS Position Transform</h3>
 
-<h6>Обов'язково:</h6>
+<h5>Обов'язково:</h5>
 
 <p>Зверстати сторінку <a href="https://www.figma.com/file/FP2fHfIElPk4J42DYQGuMw/position-transform?node-id=0%3A1&t=47vrn2kFKyuXhLQy-0">Documentation</a>.</p>
 
@@ -17,7 +17,7 @@
 <li>Патерн (фоновий малюнок) також має лишатись на місці (прилипати) при скролі цієї секції</li>
 </ul>
 
-<h6>Екстра:</h6>
+<h5>Екстра:</h5>
 
 <ul>
 <li>Зверстати сторінку Who's using?</li>
