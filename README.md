@@ -4,7 +4,7 @@
 
 <p>Зверстати сторінку і підключити усі необхідні шрифти -  <a href="https://www.figma.com/file/pKSsjdpNxqs0c9Cc0aZFUX/web-fonts">посилання</a>.</p>
 
-<h3>13. Font Face</h3>
+<h3>14. CSS Position Transform</h3>
 
 <h6>Обов'язково:</h6>
 
