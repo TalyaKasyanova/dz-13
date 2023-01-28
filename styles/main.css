@@ -1,7 +1,7 @@
 /*    main    */
 
 .main {
-    margin-top: 85px;
+    margin-top: 75px;
 
     background-image: url('../images/bg-picture.png');
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@ section {
 
 .title-box {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     gap: 10px;
 }
 
@@ -31,6 +31,7 @@ section {
     letter-spacing: 0.04em;
     text-transform: uppercase;
     position: relative;
+    margin-top: 85px;
 }
 
 .title::after {
@@ -40,7 +41,7 @@ section {
     height: 7px;
     background-color: #000000;
     left: 0;
-    bottom: 60px;
+    bottom: 80px;
 }
 
 .sup-title {
@@ -49,7 +50,7 @@ section {
     line-height: 30px;
     letter-spacing: 0.04em;
 
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 
 .underlined-text {
@@ -91,7 +92,7 @@ section {
 .main-aside {
     position: sticky;
     top: 100px;
-    padding-top: 35px;
+    padding-top: 85px;
 }
 
 .aside-list {
